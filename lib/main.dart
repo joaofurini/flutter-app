@@ -47,6 +47,7 @@ class _MyAppState extends State<MyApp> {
             body: !(questions.length > _questionIndex)
                 ? Center(
                     child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         Text("You did it!"),
                         RaisedButton(
